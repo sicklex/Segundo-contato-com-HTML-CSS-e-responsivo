@@ -165,7 +165,11 @@ footer{
     text-align: center;
 }
 
+.footer-p{
+    color: white;
+}
 
+/* End of footer CSS*/
 
 @media screen and (max-width: 425px) {
     .topo-titulo{
