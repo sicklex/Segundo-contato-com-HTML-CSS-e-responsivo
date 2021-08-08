@@ -1,0 +1,108 @@
+main{
+    padding-bottom: 50px;
+}
+
+.container-conteudo{
+   padding: 0 20px;
+}
+/*Links iniciais informativos*/
+.links-secundarios{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.links-secundarios li{
+    list-style: none;
+    padding:10px;
+   
+}
+.links-secundarios a{
+    text-decoration: none;
+    padding-bottom: 1px;
+    color: #000;
+    border-bottom: 2px solid #00cad1;
+    font-size: 18px;
+}
+
+.links-secundarios a:hover {
+    color: #0d6e71;
+  }
+    
+/*Fim dos links*/
+
+h3{
+    margin-top: 50px;
+}
+
+.box-tabela-especialista{
+    display: flex;
+    height: 240px;
+    padding: 0 20px;
+}
+
+.box-tabela-especialista img{
+    width: 30%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.tabela-especialistas{
+    border-spacing: 0; 
+    text-align: left;
+    width: 70%;
+    height: 100%;
+}
+
+.tabela-especialistas thead tr {
+    background-color: #00cad1;
+    color: #fff;
+}
+  
+.tabela-especialistas tr {
+    background-color: #f1f1f1;
+    color: #585757;
+    font-weight: 500;
+}
+  
+.tabela-especialistas tbody tr:nth-of-type(2n+1) {
+    background-color: #cdcdcd;
+    border: 1px solid #f1f1f1;
+}
+  
+.tabela-especialistas th, .tabela-especialistas td  {
+    padding: 10px;
+}
+
+
+@media (max-width: 768px){
+  .box-tabela-especialista img{
+      display: none;
+  }
+  .tabela-especialistas{
+      width: 100%;
+  }
+  .links-secundarios{
+      padding: 0;
+  }
+}
+
+
+@media (max-width: 490px){
+    .links-secundarios{
+        flex-wrap:wrap;
+        padding: 0;
+    }
+    .box-tabela-especialista{
+        padding: 0;
+    }
+}
+
+
+
+
+
+
+
+
+

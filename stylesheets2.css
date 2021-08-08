@@ -1,0 +1,243 @@
+/*Css*/
+
+*{
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #0000008c;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+.tamanho-maximo-container{
+    
+    margin: 0 auto;
+ }
+ .container{
+     max-width: 1024px;
+     margin: 0 auto;
+ }
+    
+/* fim das estilizações gerais*/
+
+
+
+/*css header*/
+
+.container-topo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    min-height: 60px;
+    padding: 0 10px;
+    margin: 0 auto;
+    background-color: #00cad1;
+}
+
+
+.topo-links{
+    margin: 10px;
+}
+.topo-links a{
+    text-decoration: none;
+    color: white;
+    padding-left: 10px; 
+}
+
+.logotipo{
+    height: 60px;
+}
+
+.topo-links a:hover{
+    color: black;
+}
+
+/* end of header*/
+
+
+/* Css main content*/
+
+.container-chamada{
+    background-image: url(assets/imagens/recepcao.png);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    
+}
+
+
+.titulo-inicial{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+.titulo-inicial h1{
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 38px;
+    margin:0;
+    color: white;
+}
+
+.container-conteudo{
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.flex-container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.flex-container h3{
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.especialidade{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.flex-img{
+   max-width: 100%;
+}
+figcaption{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight:500;
+    padding:10px ;
+}
+.img-link{
+    margin: 20px;
+    border-radius: 3px;
+    box-shadow: 0px 1px 10px rgb(0 0 0 / 50%);
+    width: calc(100% / 3 - 40px);
+}
+
+.horario{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.horarios-link{
+    text-decoration: none;
+    color: white;
+    background-color: #00cad1;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight:600 ;
+}
+
+  
+#sobre,
+#especialidades,
+#contato {
+  padding: 40px 20px 0;
+}
+
+.maps{
+    margin-bottom: 50px;
+}
+
+/* End of main content */
+
+/* Css footer*/
+
+footer{
+    background-color: #0d6e71;
+    color: #fff;
+    padding: 20px;
+  
+}
+
+.container-footer{
+    text-align: center;
+}
+
+
+
+@media screen and (max-width: 425px) {
+    .topo-titulo{
+        display: block;
+    }
+    .container-topo{
+       display: block;
+    }
+    .topo-titulo img{
+        display: block;
+        margin: 0 auto;
+       
+    }
+    .topo-links{
+        display: flex;
+        justify-content: space-around;
+        border-top: 1px solid black;
+        padding:10px;
+        margin-top: 10px;
+
+    }
+}
+
+@media (max-width: 425px){
+    .container-chamada{
+        height: 200px;
+    }
+    .titulo-inicial h1{
+        font-size: 28px;
+    }
+    .titulo-inicial{
+        padding:10px;
+    }
+    .img-link{
+        margin: 0 auto;
+        width: 80%;
+        margin: 20px;
+    }
+    .especialidade{
+        flex-flow:  wrap;
+    }
+}
+
+@media (max-width: 1024px){
+    .container-chamada{
+        height: 400px;
+    }
+}
+
+
+@media (max-width: 768px){
+    .container-chamada{
+        height: 310px;
+    }
+    .img-link{
+        margin: 0 auto;
+        width: 40%;
+        margin: 20px;
+    }
+    .especialidade{
+        flex-flow:  wrap;
+    }
+    .flex-container img{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
