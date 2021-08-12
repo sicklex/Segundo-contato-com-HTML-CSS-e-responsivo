@@ -171,47 +171,8 @@ footer{
 
 /* End of footer CSS*/
 
-@media screen and (max-width: 425px) {
-    .topo-titulo{
-        display: block;
-    }
-    .container-topo{
-       display: block;
-    }
-    .topo-titulo img{
-        display: block;
-        margin: 0 auto;
-       
-    }
-    .topo-links{
-        display: flex;
-        justify-content: space-around;
-        border-top: 1px solid black;
-        padding:10px;
-        margin-top: 10px;
 
-    }
-}
 
-@media (max-width: 425px){
-    .container-chamada{
-        height: 200px;
-    }
-    .titulo-inicial h1{
-        font-size: 28px;
-    }
-    .titulo-inicial{
-        padding:10px;
-    }
-    .img-link{
-        margin: 0 auto;
-        width: 80%;
-        margin: 20px;
-    }
-    .especialidade{
-        flex-flow:  wrap;
-    }
-}
 
 @media (max-width: 1024px){
     .container-chamada{
@@ -238,10 +199,45 @@ footer{
 }
 
 
+@media (max-width: 425px){
+    .container-chamada{
+        height: 200px;
+    }
+    .titulo-inicial h1{
+        font-size: 28px;
+    }
+    .titulo-inicial{
+        padding:10px;
+    }
+    .img-link{
+        margin: 0 auto;
+        width: 80%;
+        margin: 20px;
+    }
+    .especialidade{
+        flex-flow:  wrap;
 
+    }
+  }
+    
+  @media (max-width: 425px) {
+    .topo-titulo{
+        display: block;
+    }
+    .container-topo{
+       display: block;
+    }
+    .topo-titulo img{
+        display: block;
+        margin: 0 auto;
+       
+    }
+    .topo-links{
+        display: flex;
+        justify-content: space-around;
+        border-top: 1px solid #009fa5;
+        padding:10px;
+        margin-top: 10px;
 
-
-
-
-
-
+    }
+}
